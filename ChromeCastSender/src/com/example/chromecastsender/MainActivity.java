@@ -49,6 +49,8 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_main );
 
+        // test comment
+        
         mButton = (Button) findViewById( R.id.button );
         mButton.setOnClickListener( new OnClickListener() {
             @Override
